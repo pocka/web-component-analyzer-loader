@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pocka/web-component-analyer-loader"
+    "url": "https://github.com/pocka/web-component-analyzer-loader"
   },
   "license": "MIT",
   "main": "index.js",
