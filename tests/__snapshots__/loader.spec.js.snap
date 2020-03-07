@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomElement 1`] = `
+"module.exports={
+  \\"version\\": \\"experimental\\",
+  \\"tags\\": [
+    {
+      \\"name\\": \\"my-element\\",
+      \\"attributes\\": [
+        {
+          \\"name\\": \\"attr1\\"
+        },
+        {
+          \\"name\\": \\"attr2\\"
+        }
+      ],
+      \\"properties\\": [
+        {
+          \\"name\\": \\"myProp\\",
+          \\"type\\": \\"string\\",
+          \\"default\\": \\"\\\\\\"foo\\\\\\"\\"
+        },
+        {
+          \\"name\\": \\"value\\"
+        }
+      ]
+    }
+  ]
+}"
+`;
+
+exports[`lit-element 1`] = `
+"module.exports={
+  \\"version\\": \\"experimental\\",
+  \\"tags\\": [
+    {
+      \\"name\\": \\"my-element\\",
+      \\"attributes\\": [
+        {
+          \\"name\\": \\"prop4\\",
+          \\"type\\": \\"string\\",
+          \\"default\\": \\"\\\\\\"hello\\\\\\"\\"
+        },
+        {
+          \\"name\\": \\"prop-5\\"
+        },
+        {
+          \\"name\\": \\"prop1\\",
+          \\"type\\": \\"string\\"
+        },
+        {
+          \\"name\\": \\"prop-two\\",
+          \\"type\\": \\"number\\"
+        }
+      ],
+      \\"properties\\": [
+        {
+          \\"name\\": \\"myProp\\",
+          \\"type\\": \\"string\\",
+          \\"default\\": \\"\\\\\\"myProp\\\\\\"\\"
+        },
+        {
+          \\"name\\": \\"prop4\\",
+          \\"attribute\\": \\"prop4\\",
+          \\"type\\": \\"string\\",
+          \\"default\\": \\"\\\\\\"hello\\\\\\"\\"
+        },
+        {
+          \\"name\\": \\"prop5\\",
+          \\"attribute\\": \\"prop-5\\"
+        },
+        {
+          \\"name\\": \\"prop1\\",
+          \\"attribute\\": \\"prop1\\",
+          \\"type\\": \\"string\\"
+        },
+        {
+          \\"name\\": \\"prop2\\",
+          \\"attribute\\": \\"prop-two\\",
+          \\"type\\": \\"number\\"
+        },
+        {
+          \\"name\\": \\"prop3\\",
+          \\"type\\": \\"boolean\\"
+        }
+      ]
+    }
+  ]
+}"
+`;

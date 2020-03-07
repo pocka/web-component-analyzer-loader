@@ -1,0 +1,51 @@
+{
+  "name": "web-component-analyzer-loader",
+  "version": "0.0.0",
+  "author": {
+    "name": "Shota Fuji",
+    "email": "pockawoooh@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocka/web-component-analyer-loader"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "clone": "^2.1.2",
+    "loader-utils": "^1.4.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.0.8",
+    "memfs": "^3.1.1",
+    "prettier": "^1.19.1",
+    "web-component-analyzer": "^1.0.0",
+    "webpack": "^4.42.0"
+  },
+  "peerDependencies": {
+    "web-component-analyzer": "^1.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": "prettier --write"
+  }
+}
